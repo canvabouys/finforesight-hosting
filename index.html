@@ -3,50 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinForesight</title>
+    <title>FinForesight  | AI-Driven Trading Platform</title>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <meta name="description" content="Multi-Agent AI-driven platform for data analysis, trading strategy, and trading risk management.">
+    <meta name="keywords" content="AI trading, algorithmic trading, risk management, data analysis, trading strategies, fintech">
+    <meta name="author" content="FinForesight">
+    <meta property="og:title" content="AI-Driven Trading Platform">
+    <meta property="og:description" content="Discover cutting-edge AI solutions for data analysis, trading strategies, and risk management.">
+    <meta property="og:image" content="https://yourwebsite.com/preview-image.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta name="twitter:card" content="summary_large_image">
     <style>
-        body {
-            background: #000000;
-            color: #f8f8f8;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            align-items: center;
-            font-family: 'Poppins', sans-serif;
-            overflow: hidden;
+            position: relative;
         }
-        .container {
-            text-align: center;
+
+        .bg-gif {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
         }
-        .fire img {
-            width: 120px;
-            height: auto;
-        }
+
         .text {
-            font-size: 1.8rem;
+            position: absolute;
+            top: 10vh; 
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem;
             font-weight: bold;
-            margin-top: 10px;
+            color: #f3e9f7;
+            text-align: center;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            width: 100%;
         }
+
         footer {
-            color: rgba(236,161,8,1);
-            /* color: linear-gradient(0deg, rgba(233,41,41,1) 0%, rgba(236,161,8,1) 55%, rgba(255,0,27,1) 100%); */
-            position: fixed;
-            bottom: 15px;
+            position: absolute;
+            bottom: 10px;
             font-size: 0.9rem;
+            color: white;
+            text-align: center;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="fire">
-            <!-- <img src="fire.gif" alt="Burning Fire"> -->
-            <div style="padding-top:75.000%;position:relative;"><iframe src="https://gifer.com/embed/3tqB" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div></p>
-        </div>
-        <p class="text">Website under cooking</p>
-    </div>
-    <footer>
-        &copy; 2025 FinForesight. All rights reserved.
-    </footer>
+    <img src="./naruto.gif" class="bg-gif" alt="Background GIF">
+    <p class="text">🐦‍🔥 Website under cooking 🐦‍🔥</p>
+    <footer>&copy; 2025 FinForesight. All rights reserved.</footer>
 </body>
 </html>
