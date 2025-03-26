@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinForesight | AI-Driven Trading Platform</title>
+    <title>FinForesight | Multi-Agent Financial Platform</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./favicon.png">
@@ -49,7 +49,7 @@
             justify-content: center;
             align-items: center;
             position: relative;
-            background: black;
+/*             background: black; */
         }
 
         /* Background GIF */
@@ -83,17 +83,21 @@
             color: #ffffff;
             text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
             margin: 0;
+            display: flex;
+            align-items: center; /* Ensures perfect alignment */
         }
 
-        /* Animated Loading Bottle */
+        /* Adjusted Loading Bottle to match text height */
         .loading-bottle {
-            width: 25px;
-            height: 60px;
+            width: 40px; /* Increased width */
+            height: 50px; /* Adjusted to match text height */
             border-radius: 10px 10px 5px 5px;
             background: linear-gradient(to top, #8E44AD, #C39BD3);
             position: relative;
             overflow: hidden;
             animation: shake 1.5s infinite ease-in-out alternate;
+            display: flex;
+            align-items: center;
         }
 
         /* Liquid inside the bottle */
